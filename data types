@@ -1,0 +1,18 @@
+#include <iostream>
+#include <string>
+using namespace std;
+int main() {
+    int myInt = 42;
+    float myFloat = 3.14f;
+    double myDouble = 3.1415926535;
+    char myChar = 'C';
+    bool myBool = true;
+    string myString = "Hello, C++!";
+    cout << "Integer: " << myInt << endl;
+    cout << "Float: " << myFloat << endl;
+    cout << "Double: " << myDouble << endl;
+    cout << "Char: " << myChar << endl;
+    cout << "Boolean: " << boolalpha << myBool << endl;
+    cout << "String: " << myString << endl;
+    return 0;
+}

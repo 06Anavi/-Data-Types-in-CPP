@@ -1,0 +1,22 @@
+Aim-
+To understand and demonstrate the use of different basic data types in C++ programming.
+
+Theory-
+C++ provides various data types to store different kinds of information:
+
+int stores whole numbers without decimal points.
+
+float and double store decimal numbers, with double having higher precision.
+
+char stores a single character.
+
+bool stores truth values: true or false.
+
+string stores a sequence of characters (text).
+
+Using these data types effectively allows programmers to manage data efficiently according to its nature.
+
+The program declares variables of each type and prints their values to demonstrate how each data type works.
+
+Conclusion-
+This program successfully demonstrated the declaration and usage of different fundamental data types in C++. By running the program, we observed how each data type stores and outputs its value. Understanding these basic data types is crucial for effective programming and data management in C++.

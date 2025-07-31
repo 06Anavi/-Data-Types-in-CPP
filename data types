@@ -1,18 +1,45 @@
 #include <iostream>
-#include <string>
 using namespace std;
-int main() {
-    int myInt = 42;
-    float myFloat = 3.14f;
-    double myDouble = 3.1415926535;
-    char myChar = 'C';
-    bool myBool = true;
-    string myString = "Hello, C++!";
-    cout << "Integer: " << myInt << endl;
-    cout << "Float: " << myFloat << endl;
-    cout << "Double: " << myDouble << endl;
-    cout << "Char: " << myChar << endl;
-    cout << "Boolean: " << boolalpha << myBool << endl;
-    cout << "String: " << myString << endl;
+
+int main(){
+    int a;
+    cout<<"Enter any integer ";
+    cin>>a;
+    cout<<"Integer " <<a<< " and size is " <<sizeof(a)<< " bytes" << endl;
+
+    float b;
+    cout<<"Enter any number with decimal ";
+    cin>>b;
+    cout<<"Float " <<b<< " and size is " <<sizeof(b)<< " bytes"<< endl;
+
+    string c;
+    cout<<"Enter any word ";
+    cin>>c;
+    cout<<"String " <<c<< " and size is " <<sizeof(c)<< " bytes" << endl;
+
+    double d;
+    cout<<"Enter any number with bigger decimal ";
+    cin>>d;
+    cout<<"Double " <<c<< " and size is " <<sizeof(d)<< " bytes" << endl;
+
+    char e;
+    cout<<"Enter any letter ";
+    cin>>e;
+    cout<<"Charecter " <<e<< " and size is " <<sizeof(e)<< " bytes" << endl;
+
     return 0;
 }
+
+
+OUTPUT-
+Enter any integer 8
+Integer 8 and size is 4 bytes
+Enter any number with decimal 8.7
+Float 8.7 and size is 4 bytes
+Enter any word ANAVI
+String ANAVI and size is 32 bytes
+Enter any number with bigger decimal 999.66
+Double ANAVI and size is 8 bytes
+Enter any letter F
+Charecter F and size is 1 bytes
+

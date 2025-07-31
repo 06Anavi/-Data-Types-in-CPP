@@ -5,21 +5,32 @@ To understand and explore various primitive data types in programming, with a fo
 📚 Theory-
 
 Primitive data types are the fundamental building blocks of any programming language. In C++, they are used to store and manipulate basic forms of data such as numbers, characters, and logical values.
-🔢 Common Data Types in C++
 
-Data Type 	          Description 	                        Example
+Fundamental Data Types-
 
-int 	      Stores whole numbers without decimals 	     int marks = 25;
-float 	    Stores single-precision decimal numbers 	   float x = 3.2f;
-double     	Stores double-precision decimal numbers 	   double a = 9.97585858;
-char 	      Stores a single character 	                 char initial = 'A';
-bool 	      Stores logical values: true or false       	 bool isStudent = true;
-string 	    Stores a sequence of characters (text) 	     string name = "Aditya";
+ int – Used to store integer values, like whole numbers.
+ Example: int age = 30;
 
-🛠️ Note: In C++, string is part of the Standard Library and requires:
+  float – Used for storing single-precision decimal numbers.
+  Example: float temperature = 36.6f;
 
-include <string>
-using std::string;
+  double – Similar to float, but with double the precision (more accurate for decimals).
+  Example: double pi = 3.14159;
+
+  char – Stores a single character, like 'A' or '1'.
+  Example: char grade = 'A';
+
+  bool – Represents a boolean value: true or false.
+  Example: bool isOnline = true;
+
+  void – Represents "no type" and is mainly used for functions that do not return a value.
+  Example: void printMessage();
+
+
+ 🛠️ Note: In C++, string is part of the Standard Library and requires:
+
+    #include <string>
+    using std::string;
 
 🧠 Conclusion-
 

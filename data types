@@ -30,7 +30,6 @@ int main(){
     return 0;
 }
 
-
 OUTPUT-
 Enter any integer 8
 Integer 8 and size is 4 bytes
